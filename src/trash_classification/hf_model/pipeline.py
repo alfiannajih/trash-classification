@@ -19,8 +19,7 @@ class TrashClassificationPipeline(Pipeline):
         return {}, {}, {}
 
     def preprocess(self, inputs):
-        img = Image.open(inputs)
-        tensor = self.transform(img)
+        tensor = self.transform(inputs)
         tensor = tensor.unsqueeze(0)
 
         return tensor
