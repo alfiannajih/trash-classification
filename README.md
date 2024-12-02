@@ -15,5 +15,9 @@ In order to reproduce the code, follow these instructions:
 
     ```python deploy_model.py```
 
+## Final Results
+![final-model](./results/final-model.jpg)
+Note: For a more detailed breakdown of the results and in-depth analysis, please refer to the notebooks located in `./model_development/notebook.ipynb`
+
 ## Demo
 The demo can be accessed in [here](https://huggingface.co/spaces/alfiannajih/trash-classification)
